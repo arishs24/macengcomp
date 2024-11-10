@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #0077cc;
+}
+
+.sensor-display, .enzyme-control, .alerts, .chart {
+  border: 2px solid #0077cc;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.alerts.active {
+  background-color: #ffcccc;
+}
